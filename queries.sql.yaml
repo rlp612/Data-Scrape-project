@@ -1,0 +1,4 @@
+addressqry: "SELECT address, unitcount FROM ACDCMUBS2016.MUBS_Query where UnitCount > 10;"
+insertqry:
+  voter: 'INSERT INTO ACDCMUBS2016.VAN_data_scrape (Age, City, Name, Apt_address, Phone, Address, Likely_party, vanID, Email, scrapeID) VALUES (%(Age)s, %(City)s, %(Name)s, %(apt_address)s, %(Phone)s, %(Address)s, %(Likely_Party)s, %(vanid)s, %(Email)s, %(scrapeID)s);'
+  volunteer: 'INSERT INTO ACDCMUBS2016.MyCampaign_data_scrape (City, Age, Phone, Name, Address, Email, Apt_address, vanID, mycampaignID, scrapeID) VALUES (%(City)s, %(Age)s, %(Phone)s, %(Name)s, %(Address)s, %(Email)s, %(apt_address)s, %(vanid)s, %(mycampaignid)s, %(scrapeID)s);'
