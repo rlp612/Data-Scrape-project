@@ -15,7 +15,6 @@ The credentials files are obviously secret and permission to access them should 
 
 
 ## Details
-;
 --------------------------------------------------------------------------------
 The general idea here is that either
 
